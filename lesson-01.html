@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>page title</title>
+</head>
+<body>
+    <!-- Додати коммент, який не буде відображатись на сторінці - CTRL + / -->
+    <!-- для зрозумілості подальших тегів -->
+    <!-- Початок секції тегів заголовків -->
+    <!-- заголовки h1-6  -->
+    <h1>Заголовок першого рівня</h1>
+    <h2>level 1</h2>
+    <h3>level 3</h3>
+    <h4>level 4</h4>
+    <h5>level 5</h5>
+    <h6>level 6</h6>
+    <!-- Кінець секції тегів заголовків -->
+    <!-- <p> </p> це параграф, відступи між ними будут стандартними, текст на всю сторінку, янщ не задати додаткових параметрів -->
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. At voluptas ullam, fugit adipisci possimus repellat commodi libero blanditiis consectetur inventore labore et repudiandae aliquid quo ipsam error! Aspernatur, obcaecati ipsum?
+    </p>
+    <!-- теги, які роблять текст жирним,курсивом тощо не розділяють текст на строки
+    <strong> - заміняє <b>, рекомендований для використання при роботі, жирний текст
+     <em> - замінює <i>, текст курсивом   -->
+    <p>
+        <b>bold text </b> 
+        not bold text 
+        <strong>
+            Strong 
+        </strong>
+        <i>
+            Italic
+        </i>
+        <em>
+            Em text 
+        </em>
+        <strong>
+            <em>
+                Strong + Em
+            </em>
+        </strong>
+    </p>
+    <!--  <span>  дозволяє відокремити текст для стилізації окремих слів, літер тощо
+     <sup> - верхній реєстр
+     <sub> - нижній реєср  -->
+    <p>
+        <span>
+            2 <sup>3</sup>
+        </span>
+        <span>
+            H <sub>2</sub> O
+        </span>
+    <!-- <pre> - дозволяє зберігати табуляцію, перенесення тексту; 
+        текст на сторінці буде відображатись так як написаний тут
+      -->
+    </p>
+    <p>
+    <pre>
+        Text
+                Text
+                                1679        
+    </pre>
+    </p>
+<!--<a href="#"> Назва посилання </a>
+    # перенаправляє на відкриту сторінку, 
+    https://... - відкриється вказана адреса
+    назва документу перенаправить на нього 
+    текст залишається на одному рядку-->
+    <p>
+    <a href="#"> Link1</a>
+    <a href="https://github.com/KseniyaSF">Link2</a>
+    <a href="test.html">Link3</a>
+    </p>
+    <!-- <ul> - список з крапочкою
+          <ol> - нумерований список, <ol type="A"></ol> список з літерами, можно щось інше вібрати type=".."
+          <li> - пункт списку       -->
+    <p>
+        
+        <ul>
+            <li>
+                Item1
+                <ol>
+                    <li>
+                        Item1
+                    </li>
+                    <li>
+                        Item2
+                    </li>
+                    <li>
+                        Item3
+                    </li>
+                </ol>
+            </li>
+            <li>
+                Item2
+            </li>
+        </ul>
+
+        <ol>
+            <li>
+                Item1
+            </li>
+            <li>
+                Item2
+            </li>
+            <li>
+                Item3
+            </li>
+            <li>
+                Item4
+            </li>
+        </ol>
+    </p>
+    <!-- <div> окремий блок тексту, який можно буде стилізувати, в ньому можуть бути інші елементи
+        (абзаци, параграфи, списки, заголовки тощо) 
+          <br> - одинарний тег для переносу тексту на новий рядок  -->
+    <div>
+        div content
+    </div>
+    <div>
+        Lorem ipsum dolor <br> sit amet consectetur adipisicing elit. Possimus, distinctio laborum, necessitatibus est enim consequatur ullam <br> maxime quisquam accusamus soluta et recusandae error pariatur <br> a non eius eveniet, culpa alias!
+    </div>
+    <!-- <header> використовують частіше для "шапки", блок меню на сторінці, 
+        де буде загальна інформация та посилання  
+    <nav> навігація по сайту з посиланнями 
+        <hr> одинарний тег, горизонтальна лінія для відокремлення-->
+    <header>
+        <hr>
+        <nav>
+            <a href="#"> Link1</a>
+            <a href="https://github.com/KseniyaSF">Link2</a>
+            <a href="test.html">Link3</a>
+        </nav>
+        <hr>
+    </header>
+    <!-- <section> семантичній тег, який прийшов на заміну тегу <div>, якась відокремлена секція на сторінці 
+        в неї можуть бути внесені різні блоки за допомогою <div> -->
+    <section>
+        Section 
+    </section>
+    <aside>
+        Блок для тексту, як на Вікіпедії зліва. Але без стилізації буде виглядати як звичайний текст
+    </aside>
+    <footer>
+        Інформація, яку дублюють внизу сторінки (посилання, логотип, телефони тощо)
+        <hr>
+        <img src="img/images.jpg" alt="no image in src">
+        <hr>
+        <img src="https://ms.detector.media/doc/images/news/24610/i75_ArticleImage_24610.jpg" alt="Wiki">
+        <!-- ./img такий варіант використовується, якщо багато файлів і не знаходить необхідний файл -->
+        <hr>
+    </footer>
+</body>
+</html>
