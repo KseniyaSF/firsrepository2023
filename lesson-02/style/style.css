@@ -1,0 +1,60 @@
+h1{
+    color: brown;
+}
+h2 {
+    color: yellow;
+}
+/* style title */
+p {
+    color: blue;
+}
+.green-text {
+    color: green;
+}
+.bold {
+    font-weight: bold ;
+}
+.green-text.bold {
+    text-decoration: underline;
+}
+#mine{
+    color: lightsteelblue;
+}
+/* зірочка+{} вибирає увесь текст на сторінці і дає змогу його змінити одним разом
+*{ text-transform: uppercase; } */
+h3, h4 {
+    color:brown;
+}
+p span {
+    color: red;
+}
+span+span {
+    color: orange;
+}
+a[href="index.html"]{ 
+    color: palevioletred;
+}
+ul li:first-child{
+    font-size: 40px;
+}
+ul li:nth-child(3){
+    font-size: 30px;
+}
+div p:last-child{
+    font-size: 40px;
+}
+/*  padding відступи всередині блоку
+    margin відступи за межами блоку до інших елементів
+    якщо верх+низ та ліво+право однакове, то використовуємо об'єднаний вариіант написання
+    якщо необхідно зробити якісь різні то пишемо^
+    padding-left: ..;
+    padding-top: ..;
+    padding-bottom: ..;
+    padding-right: ..; так само з margin*/
+.size{
+    width: 250px; 
+    height: 200px;
+    padding: 20px 10px;
+    margin: 20px auto;
+    border: 3px solid black;
+}
