@@ -5,13 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style/normolize.css">
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+    <form action="">
+       <label for="name">
+        Name
+       </label> 
+       <input type="text" placeholder="Type your name" id="name">
+       <br><br>
+       <label for="password">
+        Password
+       </label>
+       <input type="password" placeholder="Type your password" id="password">
+    <br>
+    <br>
+    <fieldset>
+        <legend>
+            User data
+         <br> зроблено за допомогою  fieldset
+        </legend>
+        <div>
+            <label for="user name">
+                user name
+               </label> 
+               <input type="text" placeholder="Type your user name" id="user name">
+        </div>
+        <div>
+            <label for="user age">
+                user age
+               </label> 
+               <input type="text" disabled placeholder="Type your user age" id="user age">
+        </div>
+    </fieldset>
+    <select name="" id="select">
+        <option value="01">Html</option>
+        <option value="02">Css</option>
+        <option value="03" disabled>Js</option>
+        <option value="04">SCSS</option>
+    </select>
+    <br>
+    <textarea name="" id="" cols="10" rows="3"></textarea>
+    
+    <br><br><br>
     <div>
-    <P>1</P>
-    <P>2</P>
-    <P>3</P>
+        Male
+        <input type="radio" name="gender" id="">
     </div>
+    <div>
+        Female
+        <input type="radio" name="gender" id="">
+    </div>
+    <br><br><br>
+    <h3>
+        Select car models
+    </h3>
+    <div>
+        Mazda
+        <input type="checkbox" name="vehikle" id="">
+    </div>
+    <div>
+        Audi
+        <input type="checkbox" name="vehikle2" id="">
+    </div>
+    <div>
+        BMW
+        <input type="checkbox" name="vehikle3" id="">
+    </div>
+    <br><br><br>
+    <input type="submit" value="Відправка форми">
+    <button>
+        Button text
+    </button>
+
+
+</form>
+<button>
+    Button text
+</button>
 </body>
 </html>

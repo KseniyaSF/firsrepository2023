@@ -1,3 +1,7 @@
 div p:nth-last-child(1){
     background-color: red;
 }
+div {
+    width: 300px;
+    margin: 0 auto;
+}
